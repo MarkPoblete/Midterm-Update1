@@ -1,0 +1,120 @@
+
+nav {
+background: black;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+padding: 0 2em;
+border-bottom: 1px solid white;
+}
+
+nav img {
+  width: 20%;
+  float: left;
+  margin: 7px;
+}
+
+nav ul {
+  margin-top: 3%;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin: 1em;
+}
+
+nav a {
+  color: white;
+}
+
+main {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+article img {
+  width: 100%;
+  margin-top: 10px;
+  border: black;
+}
+
+.banner a {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  color: white;
+}
+
+div h3 {
+  text-align: center;
+}
+
+div h2 {
+  text-align: center;
+}
+
+article a {
+  color: black;
+
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+#overlay {
+  border:1px black;
+  width: 30%;
+  background-color: rgba(255, 255, 255, .5);
+  height: 50px;
+  width: 400px;
+  top: 500px;
+  overflow: hidden;
+  -webkit-transition: all 1s ease-in-out .2s;
+  -moz-transition: all 1s ease-in-out .2s;
+  -ms-transition: all 1s ease-in-out .2s;
+  -o-transition: all 1s ease-in-out .2s;
+  transition: all 1s ease-in-out .2s;
+}
+
+#overlay:hover {
+height: 600px;
+top: 0;
+}
+
+#footer {
+
+  width: 100%;        /* This sets the footer to stretch the full page width */
+  border: 1px solid black;
+}
+
+.one{
+  background-image: url(Photos/News\ 4.jpg);
+background-position: center;
+height: 600px;
+}
+
+.two{
+  background-image: url(Photos/News\ 5.jpg);
+  height: 600px;
+}
+
+.three{ 
+  background-image: url(Photos/News\ 6.jpg);
+  background-position: center;
+  height: 600px;
+ 
+}
+
